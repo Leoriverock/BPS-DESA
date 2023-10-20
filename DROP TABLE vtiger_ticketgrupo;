@@ -1,0 +1,8 @@
+DROP TABLE vtiger_ticketgrupo;
+-- DROP VIEW vtiger_ticketgrupo;
+
+CREATE VIEW vtiger_ticketgrupo AS SELECT groupid AS ticketgrupoid, groupname ticketgrupo, 1 AS presence,731 picklist_valueid, 1 sortorderid, NULL AS color
+FROM vtiger_groups;
+
+
+-- SELECT ticketgrupoid, ticketgrupo FROM vtiger_ticketgrupo ORDER BY sortorderid;

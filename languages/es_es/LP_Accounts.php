@@ -1,0 +1,27 @@
+<?php
+
+$languageStrings = array(
+    'Accounts'                   => 'Usuarios',
+    'SINGLE_Accounts'            => 'Usuario',
+    'LBL_ADD_RECORD'             => 'Añadir Usuario',
+    'LBL_RECORDS_LIST'           => 'Lista de Usuarios',
+    'LBL_ACCOUNT_INFORMATION'    => 'Detalle de Usuario',
+    'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Jerarquía de Usuario',
+    'accdocumenttype'            => 'Tipo de Documento',
+    'accdocumentnumber'          => 'Número de Documento',
+    'acccountry'                 => 'País del Documento',
+    'accbpscode'                 => 'Código BPS',
+    'accountname'                => 'Denominación Empresa / Nombre Apellido',
+    'acccontinternalnumber'      => 'Número de Contribuyente Interno',
+    'acccontexternalnumber'      => 'Número de contribuyente/RUT',
+    'accentinternalnumber'       => 'Número de Empresa Interno',
+    'accentexternalnumber'       => 'Número de Empresa',
+    'accinputcode'               => 'Código de Aportación',
+    'accpersid'                  => 'PersId',
+    'Account Name'               => 'Contribuyente/ Nombre Apellido',
+    'Account No'                 => 'Número de Usuario',
+    'All'                        => 'Todos',
+    'LBL_KEY_FIELDS'             => 'Datos del Usuario',
+    'accempexternalnumber'      => 'Número de empresa',
+    'accempinternalnumber'      => 'Número interno de empresa',
+);

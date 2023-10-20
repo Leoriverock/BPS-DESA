@@ -1,0 +1,6 @@
+.symvol
+logs/
+storage/
+cache/
+test/
+user_privileges/

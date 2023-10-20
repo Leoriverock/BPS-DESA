@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/collections
+END
+adLDAPContactCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/collections/adLDAPContactCollection.php
+END
+adLDAPGroupCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/collections/adLDAPGroupCollection.php
+END
+adLDAPComputerCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/collections/adLDAPComputerCollection.php
+END
+adLDAPUserCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/collections/adLDAPUserCollection.php
+END
+adLDAPCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/collections/adLDAPCollection.php
+END

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_vgsvisualpipeline</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_vgsvisualpipeline` (
+  `vgsvisualpipelineid` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `sourcefieldname` varchar(50) DEFAULT NULL,
+  `sourcemodule` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`vgsvisualpipelineid`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_vgsvisualsorting</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_vgsvisualsorting` (
+  `module` varchar(50) DEFAULT NULL,
+  `sorting` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;]]></sql>
+		</table>
+	</tables>
+</schema>

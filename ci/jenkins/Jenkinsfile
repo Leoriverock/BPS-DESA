@@ -1,0 +1,26 @@
+pipeline {
+    agent { label 'docker' }
+    environment {
+               
+        //AWX TEMPLATE ID
+        JOB_TEMPLATE_NUMBER = 272
+
+    }
+    stages {        
+        stage('Deploy mediante AWX en VM') {
+            when {
+                expression { env.DEPLOYMENT_ENVIRONMENT != "prod"}
+            }
+            steps {
+                ansibleTower(
+                   towerServer: 'AWX Produccion',
+                   templateType: 'job',
+                   jobTemplate: '${JOB_TEMPLATE_NUMBER}',
+                   importTowerLogs: true,        
+                   extraVars: '''---
+                env: $DEPLOYMENT_ENVIRONMENT'''
+                )
+            }        
+        }
+    }
+}

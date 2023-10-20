@@ -1,0 +1,24 @@
+LINEA 1LINEA 1el usuario de id: 7 cambio a estado Pendiente
+<br> el usuario de id: 7 cambio a estado Pendiente Desde la accion  'Cancelar'
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar'
+
+El usuario de ID:  cambió a estado Pendiente desde la acción 'Cancelar'
+
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4385&app=SUPPORT
+
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT
+
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT
+
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT con fecha: 2023-10-20 10:49:08
+
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT con fecha: 20-10-2023 10:49:33
+
+El usuario de ID: 7 cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT con fecha: 20-10-2023 10:51:57
+
+El usuario de ID: María Virginia López Rodríguez cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT con fecha: 20-10-2023 10:52:55
+
+El usuario: María Virginia López Rodríguez cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT con fecha: 20-10-2023 10:55:24
+
+El usuario: María Virginia López Rodríguez cambió a estado Pendiente desde la acción 'Cancelar' en la consulta web index.php?module=ConsultasWeb&view=Detail&record=4365&app=SUPPORT con fecha: 20-10-2023 10:55:28
+

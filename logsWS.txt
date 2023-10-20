@@ -1,0 +1,321 @@
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 2,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 10,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 2,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 2,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 2,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+llamarNumero => array (
+  'requestparam' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '4',
+    'fecha' => '2023-02-03',
+    'user' => 'admin',
+    'equipo' => ' DESKTOP-GM5NMH6 ',
+    'hora' => '14:11',
+  ),
+  'response' => false,
+)
+llamarNumero => array (
+  'json' => NULL,
+  'errorjson' => 4,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => ' DESKTOP-GM5NMH6 ',
+    'tipoConsulta' => 3,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 3,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6 ',
+    'tipoConsulta' => 3,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6 ',
+    'tipoConsulta' => 3,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 2,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '',
+    'numero' => NULL,
+    'fecha' => NULL,
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 2,
+    'hora' => NULL,
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 3,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => ' DESKTOP-GM5NMH6',
+    'tipoConsulta' => 3,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => NULL,
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => NULL,
+    'tipoConsulta' => 3,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 3,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 3,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 3,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 10,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)
+finalizarNumero => array (
+  'params' => 
+  array (
+    'lugar' => '1',
+    'sector' => '3',
+    'numero' => '1',
+    'fecha' => '2023-05-16',
+    'usuario' => 'admin',
+    'equipo' => 'DESKTOP-GM5NMH6',
+    'tipoConsulta' => 10,
+    'hora' => '20:00',
+  ),
+  'response' => false,
+  'json' => NULL,
+  'errorjson' => 0,
+)

@@ -1,0 +1,49 @@
+pipeline {
+    agent { label 'docker' }
+    environment {
+
+        // Nexus Credentials
+        NEXUS_USER = credentials('jenkins-user')
+        NEXUS_PASSWORD = credentials('jenkins-password')
+               
+        // AWX Credentials
+        JOB_TEMPLATE_NUMBER = credentials('awx-deploy-openshift-id')
+
+        GIT_COMMIT_SHORT = "${env.GIT_COMMIT.take(8)}"
+
+        // Parametros OpenShift
+        APP_NAME="vtiger"
+        OPENSHIFT_PROJECT_SRC="bps-csdh-$BRANCH_ORIGEN-$APP_NAME"
+        OPENSHIFT_PROJECT_DST="bps-csdh-$BRANCH_DESTINO-$APP_NAME"
+        
+    }
+    stages {
+        stage('Init') {
+            steps {
+                sh 'find ./ci/ -name "*.sh" -exec chmod +x {} \\;'
+            }
+        }
+		stage('Build') {
+            steps {
+                sh './ci/jenkins/promote.sh'
+            }
+        }
+        stage('Deploy mediante AWX en OpenShift') {
+            when {
+                expression { env.BRANCH_DESTINO != "prod"}
+            }
+            steps {
+                ansibleTower(
+                   towerServer: 'AWX Produccion',
+                   templateType: 'job',
+                   jobTemplate: '${JOB_TEMPLATE_NUMBER}',
+                   importTowerLogs: true,        
+                   extraVars: '''---
+                proyecto: "${OPENSHIFT_PROJECT_DST}"
+                app: "${APP_NAME}"
+                version:  "${GIT_COMMIT_SHORT}"'''
+                )
+            }        
+        }
+    }
+}

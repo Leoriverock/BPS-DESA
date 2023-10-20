@@ -1,0 +1,43 @@
+.active-call {
+    background: #0B4F98;
+    color: white;
+}
+.active-call:hover {
+    background: #3e6c9c;
+    color: white;
+}
+.active-call a:focus {
+    color: white;
+}
+.active-call a:checked {
+    color: white;
+}
+.active-call a:active {
+    color: white;
+}
+.active-call a:hover {
+    color: white;
+}
+#linkToCall label:hover {
+    cursor: pointer;
+}
+.fg-pd-right {
+    margin-left: 10px;
+}
+.widgetTicketsTable {
+    width: 100%;
+    margin-top: 30px;
+}
+.widgetTicketsTable thead {
+    font-weight: bold;
+}
+.widgetTicketsNoLines {
+    text-align: center;
+    padding: 10px;
+}
+.text-right {
+    text-align: right;
+}
+.spanSelect>div {
+    width: 200px;
+}

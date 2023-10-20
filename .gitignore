@@ -1,0 +1,56 @@
+﻿## Git ignore ideal para windows
+
+### Windows ###
+# Cache de imágenes
+Thumbs.db
+ehthumbs.db
+
+# Archivo config de la carpeta
+Desktop.ini
+
+# Archivos usados en la compartición de la papelera de reciclaje
+$RECYCLE.BIN/
+
+# Archivos de instalación de Windows
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+#### Específicos de LuderePro
+# Todo el contenido dentro de logs
+logs/*
+
+# Todo el contenido dentro de test
+test/templates_c/*
+
+# Archivo config.inc.php, propio de cada server
+# Este subirlo y cambiarlo con update-index --assume-unchanged
+# config.inc.php
+config.inc.orig.php
+Portal/config.php
+
+# Archivos de debug generados por los análisis
+archdebug.txt
+myarchivo.txt
+relsearch.txt
+
+# Carpeta user_privileges
+# en test seria necesario sino sobreescribe la data existente
+user_privileges/*
+
+#carpeta storage
+storage/*
+#excepcion para que se suba la carpeta
+!storage/vtiger.txt
+ 
+# Archivos de backup
+*.bak
+
+docker/vtiger
+
+# Archivo donde se definen las credenciales para login con ldap
+modules/Users/authTypes/adLDAP.php

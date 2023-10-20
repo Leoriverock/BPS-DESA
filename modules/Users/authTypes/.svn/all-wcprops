@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes
+END
+testldap.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/testldap.php
+END
+adLDAP.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/adLDAP.php
+END

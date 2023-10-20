@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes
+END
+adLDAPContacts.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPContacts.php
+END
+adLDAPFolders.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPFolders.php
+END
+adLDAPGroups.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPGroups.php
+END
+adLDAPUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPUtils.php
+END
+adLDAPComputers.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPComputers.php
+END
+adLDAPUsers.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPUsers.php
+END
+adLDAPExchange.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/vtigercustomization/!svn/ver/1295/trunk/ALDO/modules/Users/authTypes/classes/adLDAPExchange.php
+END
